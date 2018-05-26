@@ -1,0 +1,48 @@
+.button {
+    width: auto;
+    padding: 10px 25px;
+    color: $white;
+    border: 2px solid $accent-pink;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+}
+
+.filled {
+    background-color: $accent-pink;
+    color: $white;
+
+    &:hover {
+        transition: .5s ease-in-out;
+        color: $accent-pink;
+        background-color: $white;
+    }
+}
+
+.empty {
+    background-color: $white;
+    color: $accent-pink;
+
+    &:hover {
+        transition: .5s ease-in-out;
+        color: $white;
+        background-color: $accent-pink;
+    }
+}
+
+.disabled {
+    color: $dark-grey;
+    border: 2px solid $dark-grey;
+    cursor: default;
+    opacity: .4;
+
+    &:hover {
+        color: $dark-grey;
+        background-color: $white;
+    }
+}
+
+.rev {
+    float: right;
+}

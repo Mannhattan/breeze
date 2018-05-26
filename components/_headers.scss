@@ -1,0 +1,13 @@
+h1 {
+	font-family: $font-quicksand;
+	text-align: center !important;
+	padding: 30px;
+
+	&.left {
+		text-align: left;
+	}
+
+	&.right {
+		text-align: right;
+	}
+}

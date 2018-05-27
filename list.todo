@@ -4,13 +4,15 @@ Description & assumptions:
     ☐ css & js framework
 
 Components:
-    ☐ grid (based on flex)
+    ✔ grid (based on flex) @done (5/27/2018, 10:53:26 PM)
+    ☐ grid v2
 
     Variables:
-        ☐ material colors
+        ✔ material colors @done (5/27/2018, 10:53:00 PM)
         ✔ flat colors classes @done (5/27/2018, 4:19:02 PM)
         ☐ fonts (roboto, other)
-        ☐ add color variables for scss
+        ✔ add color variables for scss @done (5/27/2018, 10:53:08 PM)
+        ☐ standard colors
 
 
 

@@ -1,82 +1,190 @@
-//colors
+//flat colors
+$turquoise: #1abc9c;
+$emerald: #2ecc71;
+$peter__river: #3498db;
+$amethyst: #9b59b6;
+$wet__asphalt: #34495e;
 
-$white: #fff;
-$black: #000;
-$dark-grey: #455A64;
-$accent-blue: #29B6F6;
-$accent-pink: #E91E63;
-$accent-amber: #FFC107;
-$accent-purple: #9C27B0;
+$green__sea: #16a085;
+$nephritis: #16a085;
+$belize__hole: #2980b9;
+$wisteria: #8e44ad;
+$midnight__blue: #2c3e50;
 
+$sunflower: #f1c40f;
+$carrot: #e67e22;
+$alizarin: #e74c3c;
+$clouds: #ecf0f1;
+$concrete: #95a5a6;
 
+$orange: #f39c12;
+$pumpkin: #d35400;
+$pomegranate: #c0392b;
+$silver: #bdc3c7;
+$asbestos: #7f8c8d;
 
 .turquoise {
-    background-color: #1abc9c !important;
+    background-color: $turquoise !important;
 }
 .emerald {
-    background-color: #2ecc71 !important;
+    background-color: $emerald !important;
 }
 .peter__river {
-    background-color: #3498db !important;
+    background-color: $peter__river !important;
 }
 .amethyst {
-    background-color: #9b59b6 !important;
+    background-color: $amethyst !important;
 }
 .wet__asphalt {
-    background-color: #34495e !important;
+    background-color: $wet__asphalt !important;
 }
 
 .green__sea {
-    background-color: #16a085 !important;
+    background-color: $green__sea !important;
 }
 .nephritis {
-    background-color: #27ae60 !important;
+    background-color: $nephritis !important;
 }
 .belize__hole {
-    background-color: #2980b9 !important;
+    background-color: $belize__hole !important;
 }
 .wisteria {
-    background-color: #8e44ad !important;
+    background-color: $wisteria !important;
 }
 .midnight__blue {
-    background-color: #2c3e50 !important;
+    background-color: $midnight__blue !important;
 }
 
 .sunflower {
-    background-color: #f1c40f !important;
+    background-color: $sunflower !important;
 }
 .carrot {
-    background-color: #e67e22 !important;
+    background-color: $carrot !important;
 }
 .alizarin {
-    background-color: #e74c3c !important;
+    background-color: $alizarin !important;
 }
 .clouds {
-    background-color: #ecf0f1 !important;
+    background-color: $clouds !important;
 }
 .concrete {
-    background-color: #95a5a6 !important;
+    background-color: $concrete !important;
 }
 
 .orange {
-    background-color: #f39c12 !important;
+    background-color: $orange !important;
 }
 .pumpkin {
-    background-color: #d35400 !important;
+    background-color: $pumpkin !important;
 }
 .pomegranate {
-    background-color: #c0392b !important;
+    background-color: $pomegranate !important;
 }
 .silver {
-    background-color: #bdc3c7 !important;
+    background-color: $silver !important;
 }
 .asbestos {
-    background-color: #7f8c8d !important;
+    background-color: $asbestos !important;
 }
+
+
+
+
+
+//material colors
+$red:#f44336;
+$pink:#E91E63;
+$purple:#9C27B0;
+$deep__purple:#673AB7;
+$indigo:#3F51B5;
+$blue:#2196F3;
+$light__blue:#03A9F4;
+$cyan:#00BCD4;
+$teal:#009688;
+$green:#4CAF50;
+$light__green:#8BC34A;
+$lime:#CDDC39;
+$yellow:#FFEB3B;
+$amber:#FFC107;
+$orange:#FF9800;
+$deep__orange:#FF5722;
+$brown:#795548;
+$grey:#9E9E9E;
+$blue__grey:#607D8B;
+
+.red {
+    background-color: $red !important;
+}
+.pink {
+    background-color: $pink !important;
+}
+.purple {
+    background-color: $purple !important;
+}
+.deep__purple {
+    background-color: $deep__purple !important;
+}
+.indigo {
+    background-color: $indigo !important;
+}
+.blue {
+    background-color: $blue !important;
+}
+.light__blue {
+    background-color: $light__blue !important;
+}
+.cyan {
+    background-color: $cyan !important;
+}
+.teal {
+    background-color: $teal !important;
+}
+.green {
+    background-color: $green !important;
+}
+.light__green {
+    background-color: $light__green !important;
+}
+.lime {
+    background-color: $lime !important;
+}
+.yellow {
+    background-color: $yellow !important;
+}
+.amber {
+    background-color: $amber !important;
+}
+.orange {
+    background-color: $orange !important;
+}
+.deep__orange {
+    background-color: $deep__orange !important;
+}
+.brown {
+    background-color: $brown !important;
+}
+.grey {
+    background-color: $grey !important;
+}
+.blue__grey {
+    background-color: $blue__grey !important;
+}
+
+
+
+
+
+//standard colors
+$night: #141228;
+$white: #fff;
+$black: #000;
 
 .black {
     background-color: #000 !important;
 }
 .white {
-    background-color: #fff !important;
+    background-color: #fff !important;    
+}
+.night {
+    background-color: $night !important;    
 }

@@ -6,6 +6,7 @@
     border-radius: 5px;
     font-size: 1.2em;
     text-transform: uppercase;
+    text-decoration: none;
     transition: .5s ease-in-out;
 }
 
@@ -41,8 +42,4 @@
         color: $dark-grey;
         background-color: $white;
     }
-}
-
-.rev {
-    float: right;
 }

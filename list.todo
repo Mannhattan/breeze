@@ -8,8 +8,9 @@ Components:
 
     Variables:
         ☐ material colors
-        ☐ flat colors
+        ✔ flat colors classes @done (5/27/2018, 4:19:02 PM)
         ☐ fonts (roboto, other)
+        ☐ add color variables for scss
 
 
 

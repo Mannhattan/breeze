@@ -69,3 +69,18 @@ img {
     height: 100px;
     margin: 0 auto 0 auto;
 }
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: $wet__asphalt;
+
+    h5 {
+        font-family: $font-quicksand;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: 100;
+        color: $white;
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,44 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+	align-items: center;
+
+    .pagination__page {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: $midnight__blue;
+        text-decoration: none;
+        margin: 5px;
+        border-radius: 3px;
+        transition: .3s ease-in-out;
+
+        &:hover {
+            transition: .3s ease-in-out;
+            background-color: $pink;
+            cursor: pointer;
+        }
+
+        svg {
+            width: 16px;
+            height: 16px;
+            margin: 12px;
+            color: $white;
+        }
+
+        &.page__current {
+            background-color: $pink;
+        }
+
+        h4 {
+            line-height: 40px;
+            font-family: $font-quicksand;
+            font-size: 1em;
+            text-align: center;
+            font-weight: 100;
+            color: $white;
+        }
+    }
+}

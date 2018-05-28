@@ -1,0 +1,162 @@
+input[type="text"] {
+    font-family: $font-quicksand;
+    font-size: 1em;
+    width: auto;
+
+    &.material__input {
+        background-color: transparent;
+        color: $white;
+        border: none;
+        border-bottom: 2px solid $wet__asphalt;
+        padding: 12px 5px;
+        transition: .3s ease-in-out;
+
+        &:focus  {
+            transition: .3s ease-in-out;
+            border-bottom: 2px solid $pink;
+        }
+
+        &.input__error {
+            border-bottom: 2px solid $red;
+        }
+    }
+
+    &.flat__input {
+        background-color: transparent;
+        border-radius: 3px;
+        color: $white;
+        border: none;
+        border: 2px solid $wet__asphalt;
+        padding: 12px 20px;
+        transition: .3s ease-in-out;
+
+        &:focus {
+            transition: .3s ease-in-out;
+            border: 2px solid $pink;
+        }
+
+        &.input__error {
+            border: 2px solid $red;
+        }
+    }
+}
+
+input[type="email"] {
+    font-family: $font-quicksand;
+    font-size: 1em;
+    width: auto;
+
+    &.material__input {
+        background-color: transparent;
+        color: $white;
+        border: none;
+        border-bottom: 2px solid $wet__asphalt;
+        padding: 12px 5px;
+        transition: .3s ease-in-out;
+
+        &:focus  {
+            transition: .3s ease-in-out;
+            border-bottom: 2px solid $pink;
+        }
+        
+        &.input__error {
+            border-bottom: 2px solid $red;
+        }
+    }
+
+    &.flat__input {
+        background-color: transparent;
+        border-radius: 3px;
+        color: $white;
+        border: none;
+        border: 2px solid $wet__asphalt;
+        padding: 12px 20px;
+        transition: .3s ease-in-out;
+
+        &:focus {
+            transition: .3s ease-in-out;
+            border: 2px solid $pink;
+        }
+
+        &.input__error {
+            border: 2px solid $red;
+        }
+    }
+}
+
+input[type="password"] {
+    font-family: $font-quicksand;
+    font-size: 1em;
+    width: auto;
+
+    &.material__input {
+        background-color: transparent;
+        color: $white;
+        border: none;
+        border-bottom: 2px solid $wet__asphalt;
+        padding: 12px 5px;
+        transition: .3s ease-in-out;
+
+        &:focus  {
+            transition: .3s ease-in-out;
+            border-bottom: 2px solid $pink;
+        }
+
+        &.input__error {
+            border-bottom: 2px solid $red;
+        }
+    }
+
+    &.flat__input {
+        background-color: transparent;
+        border-radius: 3px;
+        color: $white;
+        border: none;
+        border: 2px solid $wet__asphalt;
+        padding: 12px 20px;
+        transition: .3s ease-in-out;
+
+        &:focus {
+            transition: .3s ease-in-out;
+            border: 2px solid $pink;
+        }
+
+        &.input__error {
+            border: 2px solid $red;
+        }
+    }
+}
+
+textarea {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    height: 250px;
+    border: 2px solid #cfd9db;
+    border-radius: 7px;
+    resize: vertical;
+    padding: 12px 20px;
+}
+
+input[type="submit"] {
+    width: 30%;
+    height: 45px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1em;
+    font-weight: 100;
+    background-color: #ECEFF1; /*#4b78a0*/
+    border: 2px solid #cfd9db;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    margin-top: 30px;
+    color: #000;
+    transition: all .5s;
+}
+    input[type="submit"]:hover, input[type="submit"]:focus {
+        transition: all .5s;
+        background-color: #000;
+        color: #fff;
+        border: 2px solid #000;
+        box-shadow: 5px 5px 5px #d3d3d3;
+    }

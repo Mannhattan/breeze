@@ -41,8 +41,12 @@ a {
 
 .container__inline {
     display: inline-block;
-    width: 200px;
+    width: 220px;
     margin: 20px;
+
+    &.auto {
+        width: auto !important;
+    }
 
     p {
         border: none;

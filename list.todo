@@ -6,6 +6,8 @@ Description & assumptions:
 Components:
     ✔ grid (based on flex) @done (5/27/2018, 10:53:26 PM)
     ☐ grid v2
+    ✔ inputs v1 @done (5/28/2018, 2:10:48 PM)
+    ☐ inputs v2
 
     Variables:
         ✔ material colors @done (5/27/2018, 10:53:00 PM)
